@@ -1,0 +1,131 @@
+/* Estilos Gerais */
+
+.body {
+    font-family: 'Roboto', Sans-serif;
+    min-width: 372px;
+}
+
+.wrapper {
+    min-height: 100vh;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 7rem 0;
+
+}
+
+li {
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+/* BARRA DE NAVEGAÇÃO */
+
+.navbar {
+    background-color: rgb(172, 86, 141);
+
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+    
+}
+
+.navbar-brand {
+    padding: 0;
+    color: #fff;
+    font-size: 2.2rem;
+    
+}
+
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-nav a {
+    padding: 0;
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+.navbar-nav a:hover {
+    color: #fff;
+    
+}
+
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+.navbar-expand-lg, .navbar-nav, .nav-link {
+    padding: .6rem .4rem;
+}
+
+/* Seção MAIN */
+
+.btn-comprar:hover {
+    background-color: green;
+    color: white;
+}
+
+/* Página de pedido do cliente (Acordeon */
+
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: #dc3545;
+}
+
+
+/* Este código é para aparecer somente 3 linhas na descrição do produto */
+
+#truncar{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.truncar-text{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 469px) {
+    .mt-xs-3 {
+        margin-top: 1rem;
+    }
+    
+}
+
+/* Página de endereço de entrega */
+
+.flex-even {
+    flex: 1;
+    min-width: 300px;
+}
+
+
+/* FOOTER */
+
+.links-footer { 
+    text-decoration: none;
+    
+} 
+
+.links-footer:hover {
+    color: blue;
+}

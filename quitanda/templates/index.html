@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ValBaby :: Homepage</title>
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!--Meus estilos-->
+  <link rel="stylesheet" href="/quitanda/templates/static/css/styles.css">
+  </link>
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/quitanda/templates/static/img/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/quitanda/templates/static/img/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/quitanda/templates/static/img/icons/favicon-16x16.png">
+  <link rel="manifest" href="/quitanda/templates/static/img/icons/site.webmanifest">
+  <link rel="mask-icon" href="/quitanda/templates/static/img/icons/android-chrome-192x192.png" color="#5bbad5">
+  <link rel="shortcut icon" href="/quitanda/templates/static/img/icons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/quitanda/templates/static/img/icons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  Imagem de <a
+    href="https://br.freepik.com/fotos-gratis/plano-de-fundo-de-programacao-com-pessoa-trabalhando-com-codigos-no-computador_38669459.htm#query=programador&position=0&from_view=keyword&track=sph&uuid=fe2ff95d-45c5-4294-8d10-e6d3e3628fd7">Freepik</a>
+
+</head>
+
+<body>
+
+  <div class="d-flex flex-column wrapper">
+    <nav class="navbar navbar-expand-lg navbar-dark border-bottom shadow-sm mb-3 fixed-top">
+      <div class="container-fluid" id="nav-container">
+        <a class="navbar-brand" href="/quitanda/base.html"><img
+            src="/quitanda/templates/static/img/Logo_Valbaby_250.png" alt="Logo Empresa" width="75" height="75">&nbsp
+          <strong>ValBaby</strong></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse">
+          <div class="navbar-nav flex-grow-1">
+            <a class="nav-item nav-link" href="/quitanda/templates/index.html">Produtos
+            </a>
+          </div>
+
+          <div class="navbar-nav justify-content-end flex-grow-1" id="navbar-links">
+
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="/quitanda/templates/login.html" id="linkedin-menu">Entrar</a>
+            </div>
+
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="/quitanda/templates/cadastro.html" id="linkedin-menu">Cadastrar</a>
+            </div>
+
+            <div class="navbar-nav">
+              <span class="badge rounded-pill bg-light text-danger position-absolute ms-4 mt-0"
+                title="5 produtos no carrinho"><small>5</small></span>
+              <a class="nav-item nav-link" href="/quitanda/templates/carrinho.html" id="linkedin-menu"><img src=""
+                  alt=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+            </div>
+
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="https://www.instagram.com/aprendainglescomfrasesprontas/"
+                id="instagram-menu"><img src="" alt=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="https://wa.me/5519982427091" id="whatsapp-menu"><img src="" alt=""><i
+                  class="fa fa-whatsapp" aria-hidden="true"></i></a>
+            </div>
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="https://www.facebook.com/ronaldocorreiaallblue" id="facebook-menu"><img
+                  src="" alt=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main class="flex-fill">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-5">
+            <form class="justify-content-center justify-content-md-start mb-3" action="">
+              <div class="input-group input-group-sm">
+                <input type="text" class="form-control" placeholder="Digite aqui o que procura">
+                <button class="btn btn-danger" type="button" id="button-addon2">Buscar</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-12 col-md-7">
+            <div class="d-flex d-flex-row-reserve justify-content-center justify-content-md-start">
+              <form action="" class="d-inline-block">
+                <select name="" id="" class="form-select form-select-sm">
+                  <option value="">Ordenar pelo nome</option>
+                  <option value="">Ordenar pelo menor preço</option>
+                  <option value="">Ordenar pelo maior preço</option>
+                </select>
+              </form>
+              <nav class="d-inline-block me-3">
+                <ul class="pagination pagination-sm my-0">
+                  <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item"><a class="page-link" href="#">4</a></li>
+                  <li class="page-item"><a class="page-link" href="#">5</a></li>
+                  <li class="page-item"><a class="page-link" href="#">6</a></li>
+                  <li class="page-item"><a class="page-link" href="#">7</a></li>
+                  <li class="page-item"><a class="page-link" href="#">Próximo</a></li>
+                </ul>
+              </nav>
+
+            </div>
+          </div>
+
+        </div>
+        <hr>
+
+        <div class="row g-3">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <div class="card text-center bg-light">
+              <a href="" class="position-absolute end-0 p-2 text-danger" title="Remover dos favoritos"><i
+                  class="bi-heart-fill" style="font-size: 24px; line-height: 24px;"></i></a>
+              <a href="/quitanda/templates/produto.html">
+                <img src="/quitanda/templates/static/img/produtos/Conjunto Body Azul Celeste Frente.png"
+                  class="card-img-top" alt="body azul"></a>
+              <div class="card-header">
+                R$ 49,90
+              </div>
+              <div class="card-body">
+                <h6 class="card-title truncar-text text-danger"><b>Conjunto Body</b></h6>
+                <p classe="card-text" id="truncar">Some quick example text to build on the card title and make up the
+                  bulk
+                  of the
+                  card's content.</p>
+              </div>
+              <div class="card-footer">
+                <a class="btn btn-danger mt-2 d-block btn-comprar" href="/quitanda/templates/carrinho.html">Adicionar ao
+                  carrinho</a>
+                <small class="text-success mb-5">5 unidades em estoque</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <div class="card text-center bg-light">
+              <a href="" class="position-absolute end-0 p-2 text-danger" title="Remover dos favoritos"><i
+                  class="bi-heart-fill" style="font-size: 24px; line-height: 24px;"></i></a>
+              <img src="/quitanda/templates/static/img/produtos/Conjunto Body Short Branco e Vermelho Traz.png"
+                class="card-img-top" alt="body azul">
+              <div class="card-header">
+                R$ 49,90
+              </div>
+              <div class="card-body">
+                <h6 class="card-title truncar-text text-danger"><b>Conjunto Body</b></h6>
+                <p classe="card-text" id="truncar">Some quick example text to build on the card title and make up the
+                  bulk
+                  of the
+                  card's content.</p>
+              </div>
+              <div class="card-footer">
+                <a class="btn btn-danger mt-2 d-block btn-comprar" href="/quitanda/templates/carrinho.html">Adicionar ao
+                  carrinho</a>
+                <small class="text-success mb-5">5 unidades em estoque</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <div class="card text-center bg-light">
+              <a href="" class="position-absolute end-0 p-2 text-danger" title="Remover dos favoritos"><i
+                  class="bi-heart-fill" style="font-size: 24px; line-height: 24px;"></i></a>
+              <img src="/quitanda/templates/static/img/produtos/Conjunto Cinza e Laranja.png" class="card-img-top"
+                alt="body azul">
+              <div class="card-header">
+                R$ 49,90
+              </div>
+              <div class="card-body">
+                <h6 class="card-title truncar-text text-danger"><b>Conjunto</b></h6>
+                <p classe="card-text" id="truncar">Some quick example text to build on the card title and make up the
+                  bulk
+                  of the
+                  card's content.</p>
+              </div>
+              <div class="card-footer">
+                <a class="btn btn-danger mt-2 d-block btn-comprar" href="/quitanda/templates/carrinho.html">Adicionar ao
+                  carrinho</a>
+                <small class="text-success mb-5">5 unidades em estoque</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <div class="card text-center bg-light">
+              <img src="/quitanda/templates/static/img/produtos/Conjunto menino.png" class="card-img-top"
+                alt="body azul">
+              <div class="card-header">
+                R$ 49,90
+              </div>
+              <div class="card-body">
+                <h6 class="card-title truncar-text text-danger"><b>Conjunto Body</b></h6>
+                <p classe="card-text" id="truncar">Some quick example text to build on the card title and make up the
+                  bulk
+                  of the
+                  card's content.</p>
+              </div>
+              <div class="card-footer">
+                <a class="btn btn-light disabled mt-2 d-block btn-comprar"
+                  href="/quitanda/templates/carrinho.html">Produto<br> Em
+                  falta</a>
+                <small class="text-danger mb-5"><b>Estoque esgotado</b></small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <div class="card text-center bg-light">
+              <img src="/quitanda/templates/static/img/produtos/Kit Luvinha Sapatinho e Touquinha Vermelho.png"
+                class="card-img-top" alt="body azul">
+              <div class="card-header">
+                R$ 37,00
+              </div>
+              <div class="card-body">
+                <h6 class="card-title truncar-text  text-danger"><b>Kit Luva, Sapatinho e Touca</b></h6>
+                <p classe="card-text" id="truncar">Some quick example text to build on the card title and
+                  make up the bulk
+                  of the
+                  card's content.</p>
+              </div>
+              <div class="card-footer">
+                <a class="btn btn-danger mt-2 d-block btn-comprar" href="/quitanda/templates/carrinho.html">Adicionar ao
+                  carrinho</a>
+                <small class="text-success mb-5">5 unidades em estoque</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <div class="card text-center bg-light">
+              <img src="/quitanda/templates/static/img/produtos/Kit Mijão Azul.png" class="card-img-top"
+                alt="body azul">
+              <div class="card-header">
+                R$ 22,90
+              </div>
+              <div class="card-body">
+                <h6 class="card-title truncar-text text-danger"><b>Mijão</b></h6>
+                <p classe="card-text" id="truncar">Some quick example text to build on the card title and make up the
+                  bulk
+                  of the
+                  card's content.</p>
+              </div>
+              <div class="card-footer">
+                <a class="btn btn-danger mt-2 d-block btn-comprar" href="/quitanda/templates/carrinho.html">Adicionar ao
+                  carrinho</a>
+                <small class="text-success mb-5">5 unidades em estoque</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <div class="card text-center bg-light">
+              <img src="/quitanda/templates/static/img/produtos/Kit shorts com 6.png" class="card-img-top"
+                alt="body azul">
+              <div class="card-header">
+                R$ 55,00
+              </div>
+              <div class="card-body">
+                <h6 class="card-title truncar-text text-danger"><b>Kit 6 shorts</b></h6>
+                <p classe="card-text" id="truncar">Some quick example text to build on the card title and make up the
+                  bulk
+                  of the
+                  card's content.</p>
+              </div>
+              <div class="card-footer">
+                <a class="btn btn-danger mt-2 d-block btn-comprar" href="/quitanda/templates/carrinho.html">Adicionar ao
+                  carrinho</a>
+                <small class="text-success mb-5">5 unidades em estoque</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <div class="card text-center bg-light">
+              <img src="/quitanda/templates/static/img/produtos/Macacão Vermelho.png" class="card-img-top"
+                alt="body azul">
+              <div class="card-header">
+                R$ 45,00
+              </div>
+              <div class="card-body">
+                <h6 class="card-title truncar-text text-danger"><b>Macação</b></h6>
+                <p classe="card-text" id="truncar">Some quick example text to build on the card title and make up the
+                  bulk
+                  of the
+                  card's content.</p>
+              </div>
+              <div class="card-footer">
+                <a class="btn btn-danger mt-2 d-block btn-comprar" href="/quitanda/templates/carrinho.html">Adicionar ao
+                  carrinho</a>
+                <small class="text-success mb-5">5 unidades em estoque</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <div class="card text-center bg-light">
+              <img src="/quitanda/templates/static/img/produtos/Mijão Azul Marinho.png" class="card-img-top"
+                alt="body azul">
+              <div class="card-header">
+                R$ 32,90
+              </div>
+              <div class="card-body">
+                <h6 class="card-title truncar-text text-danger"><b>Mijão</b></h6>
+                <p classe="card-text" id="truncar">Some quick example text to build on the card title and make up the
+                  bulk
+                  of the
+                  card's content.</p>
+              </div>
+              <div class="card-footer">
+                <a class="btn btn-danger mt-2 d-block btn-comprar" href="/quitanda/templates/carrinho.html">Adicionar ao
+                  carrinho</a>
+                <small class="text-success mb-5">5 unidades em estoque</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <div class="card text-center bg-light">
+              <img src="/quitanda/templates/static/img/produtos/Sapatinho Vermelho.png" class="card-img-top"
+                alt="body azul">
+              <div class="card-header">
+                R$ 17,50
+              </div>
+              <div class="card-body">
+                <h6 class="card-title truncar-text text-danger"><b>Sapatinho Vermelho</b></h6>
+                <p classe="card-text" id="truncar">Some quick example text to build on the card title and make up the
+                  bulk
+                  of the
+                  card's content.</p>
+              </div>
+              <div class="card-footer">
+                <a class="btn btn-danger mt-2 d-block btn-comprar" href="/quitanda/templates/carrinho.html">Adicionar ao
+                  carrinho</a>
+                <small class="text-success mb-5">5 unidades em estoque</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <div class="card text-center bg-light">
+              <img src="/quitanda/templates/static/img/produtos/Short Azul Celeste Traz.png" class="card-img-top"
+                alt="body azul">
+              <div class="card-header">
+                R$ 22,90
+              </div>
+              <div class="card-body">
+                <h6 class="card-title truncar-text text-danger"><b>Short Azul Celeste</b></h6>
+                <p classe="card-text" id="truncar">Some quick example text to build on the card title and make up the
+                  bulk
+                  of the
+                  card's content.</p>
+              </div>
+              <div class="card-footer">
+                <a class="btn btn-danger mt-2 d-block btn-comprar" href="/quitanda/templates/carrinho.html">Adicionar ao
+                  carrinho</a>
+                <small class="text-success mb-5">5 unidades em estoque</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <div class="card text-center bg-light">
+              <img src="/quitanda/templates/static/img/produtos/Short Azul Marinho Traz.png" class="card-img-top"
+                alt="body azul">
+              <div class="card-header">
+                R$ 22,90
+              </div>
+              <div class="card-body">
+                <h6 class="card-title truncar-text text-danger"><b>Short</b></h6>
+                <p classe="card-text" id="truncar">Some quick example text to build on the card title and make up the
+                  bulk
+                  of the
+                  card's content.</p>
+              </div>
+              <div class="card-footer">
+                <a class="btn btn-danger mt-2 d-block btn-comprar" href="/quitanda/templates/carrinho.html">Adicionar ao
+                  carrinho</a>
+                <small class="text-success mb-5">12 unidades em estoque</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="mt-3">
+
+        <div class="row">
+
+          <div class="col-12 pb-4">
+            <div class="d-flex d-flex-row justify-content-center justify-content-md-end">
+              <form action="" class="d-inline-block">
+                <select name="" id="" class="form-select form-select-sm">
+                  <option value="">Ordenar pelo nome</option>
+                  <option value="">Ordenar pelo menor preço</option>
+                  <option value="">Ordenar pelo maior preço</option>
+                </select>
+              </form>
+              <nav class="d-inline-block me-3">
+                <ul class="pagination pagination-sm my-0">
+                  <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item"><a class="page-link" href="#">4</a></li>
+                  <li class="page-item"><a class="page-link" href="#">5</a></li>
+                  <li class="page-item"><a class="page-link" href="#">6</a></li>
+                  <li class="page-item"><a class="page-link" href="#">7</a></li>
+                  <li class="page-item"><a class="page-link" href="#">Próximo</a></li>
+                </ul>
+              </nav>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </main>
+
+    <div style="height: 273;" class="d-block d-md-none"></div>
+    <div style="height: 273;" class="d-none d-md-block d-lg-none"></div>
+    <div style="height: 273;" class="d-none d-lg-block"></div>
+
+    <footer class="border-top fixed-bottom bg-light">
+      <div class="container-fluid">
+        <div class="row py-3">
+          <div class="col-12 col-md-4 text-center text-md-left">
+            &copy; 2024 ValBaby Comércio de Roupas Infantis <br>
+            Rua Geraldo Amaral, 249, Nova Odessa, SP <br>
+            CEP.: 13.386-138 <br>
+            CNPJ.: 13.193.744/0001-11
+          </div>
+
+          <div class="col-12 col-md-4 text-center text-md-left links-footer">
+            <a href="/quitanda/templates/políticas_de_privacidade.html" class="text-dark links-footer">Políticas de
+              Privacidade</a><br>
+            <a href="/quitanda/templates/termos_de_uso.html" class=" text-dark links-footer">Termos de Uso</a><br>
+            <a href="/quitanda/templates/quem_somos.html" class=" text-dark links-footer">Quem Somos</a>
+          </div>
+
+          <div class="col-12 col-md-4 text-left text-md-right mr-10">
+
+            <a href="https://wa.me/5519982427091" class="text-decoration-none text-dark"><i class="fa fa-whatsapp"
+                aria-hidden="true"></i>&nbsp; WhatsApp</a>
+            <br>
+
+            <a href="#" class="text-decoration-none text-dark"><i class="fa fa-envelope"
+                aria-hidden="true"></i>&nbsp;valdefefp1973@gmail.com</a>
+            <br>
+
+            <a href="#" class="text-decoration-none text-dark"><i class="fa fa-instagram" aria-hidden="true"></i>&nbsp;
+              Instagram
+            </a>
+
+
+
+          </div>
+        </div>
+
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+
+  <!--Meus Scripts-->
+  <script src="/quitanda/templates/static/js/scripts.js"></script>
+
+  <!--Font Awesome-->
+  <script src="https://kit.fontawesome.com/b7f0b701d3.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
